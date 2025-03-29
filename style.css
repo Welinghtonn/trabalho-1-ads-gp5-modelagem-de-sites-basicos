@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+
+    width: 100%;
+}
+
+nav p{
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.containerNav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.conatinerUser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+}
+
+ion-icon{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+
+.teste{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 280px;
+    height: 360px;
+}
+
+.teste p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagem1{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem1.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem1:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem1Hover.png);
+}
+.imagem2{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem2.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem2:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem2Hover.png);
+}
+.imagem3{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem3.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem3Hover.png);
+}
+.imagem4{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem4.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem4:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem4Hover.png);
+}
+.imagem5{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem5.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem5:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem5Hover.png);
+}
+.imagem6{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem6.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem6:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem6Hover.png);
+}
+.imagem7{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem7.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem7:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem7Hover.png);
+}
+.imagem8{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/imagem8.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+}
+
+.imagem8:hover{
+    transform: scale(1.1); 
+    background-image: url(/img/imagem8Hover.png);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 210px;
+    margin-top: auto;
+
+    color: #fff;
+    background-color: #262626;
+
+}
+
+.conatinerLayoutFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.containerInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: auto;
+    border: solid 2px #fff;
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 16px 26px;
+}
+
+.arrow{
+    width: 20px;
+    margin-right: 20px;
+}
+
+.arrowInput{
+    color: #fff;
+}
+
+.iconsRedes{
+    display: flex;
+    gap: 20px;
+}
+
+.textFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    border-top: solid 1px gray;
+    width: 100%;
+    height: 70px;
+}
